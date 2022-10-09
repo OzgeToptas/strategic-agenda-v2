@@ -1,0 +1,39 @@
+
+.editor{
+  margin:20px 0;
+  height: auto;
+  min-height:250px;
+  position:relative;
+}
+.spellList{
+  position:absolute;
+  display:block;
+  background-color:#fff;
+  color:#7eb190;
+  font-size: 14px;
+  padding: 5px 5px 0 6px;
+  border-radius: 3px;
+  box-shadow: 0px 3px 11px -9px #000;
+}
+.spellList span {
+  color:#8b9199;
+  padding: 2px 5px;
+}
+.spellList li{
+      padding: 2px 5px;
+}
+.spellList li:hover,.spellList span:hover{
+  color:#000;
+  background-color:#d9e8de;
+  border-radius: 3px;
+}
+.quill{
+    height: 100%;
+    /* added these styles */
+    flex: 1;
+   /* overflow-y: auto; */
+    width: 100%;
+}
+li{font-size:10px;list-style: none;}
+span{font-size:10px;display:block;}
+hr{margin: 5px auto !important;}
